@@ -47,6 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+
+body {
+	background-color: rgb(178, 211, 207);
+	font-family: Arial, Helvetica, sans-serif;
+    color: black;
+	}
+
 /***********************************************************
 						MAIN
 ***********************************************************/
@@ -56,14 +63,24 @@ table {
 	background-color: rgb(216, 232, 231);
     width:1024px;
     margin:0 auto; /* 0 on the top and bottom, and "auto" and the left and right
-    this will centre the element in the browser window */
+    this will centre the element in the browser window */	
 }
+
+
+
+
+
+
+/***********************************************************
+						NAV
+***********************************************************/
 nav li{
 	display: inline;
   }
 
-body {
-	background-color: rgb(178, 211, 207);
-	font-family: Arial, Helvetica, sans-serif;
-    color: black;
-  }
+  /***********************************************************
+						FOOTER
+***********************************************************/
+footer {
+	color: black;
+}
