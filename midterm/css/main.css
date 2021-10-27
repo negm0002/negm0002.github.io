@@ -55,6 +55,25 @@ body {
 	}
 
 /***********************************************************
+						NAV
+***********************************************************/
+
+nav li{
+	display: inline;
+	font-size:1.4rem;
+  }
+
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color: darkgreen;
+}
+
+/***********************************************************
 						MAIN
 ***********************************************************/
 
@@ -66,26 +85,27 @@ body {
     this will centre the element in the browser window */	
 }
 
-.smaller{
-	font-size: 24px;
+h1{
+    color: white;
+	font-size:3.2rem;
 }
 
-a:link { text-decoration: none; }
-a:hover{
-	color:cadetblue;
+h2{
+	font-size:2rem;
 }
 
+h3{
+	font-size:1.5rem;
+}
 
-/***********************************************************
-						NAV
-***********************************************************/
-nav li{
-	display: inline;
-  }
+li{
+	font-size: 12px;
+}
 
   /***********************************************************
 						FOOTER
 ***********************************************************/
-footer {
+
+footer{
 	color: black;
 }
