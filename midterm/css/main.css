@@ -61,6 +61,7 @@ body {
 nav li{
 	display: inline;
 	font-size:1.4rem;
+	padding: 70px;
   }
 
 a:link{
@@ -115,7 +116,7 @@ img.floatLeft {
 }
 
 form {
-	margin: 15px;
+	margin: 10px;
 	border: 1px solid black;
 	padding: 10px;
 	}
