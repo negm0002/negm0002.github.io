@@ -61,7 +61,15 @@ body {
 nav li{
 	display: inline;
 	font-size:1.4rem;
-	padding: 70px;
+	text-align: center;
+	padding:0px 120px 0px 120px;
+	flex-grow: 1;
+	position: relative;
+	border-right: 1px black solid;
+  }
+
+  nav li:last-child{
+	border-right: none;
   }
 
 a:link{
