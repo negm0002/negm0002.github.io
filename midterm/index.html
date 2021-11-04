@@ -2,37 +2,38 @@
 <html lang="en">
 
   <head>
-    <!-- Document information -->
     <meta charset="UTF-8">
     <title>Lone Starfish</title>
 
-    <!-- Linking the HTML Document with the CSS file -->
+    <!------------ Linking HTML-CSS ----------->
     <link href="css/main.css" rel="stylesheet">
   </head>
 
   <body>
-    <!-- Document Content -->
-      
     <div id="container">
-      
-        <header>
-          <h1>Lone Starfish</h1>
-            <nav role="navigation">
-              <ul>
-                <li><a href="">HOME</a></li>       
-                <li><a href="">STORY</a></li>
-                <li><a href="">CONTACT</a></li>
-			        </ul>
-            </nav>
-        </header>
+    <!------------ Header ----------->
+    <header>
+      <div class="image">
+        <img src="https://negm0002.github.io/midterm/images/lone-starfish-wide.jpg" alt="lone-starfish-wide"/>
+      </div>
+      <h1>Lone Starfish</h1>
+      <nav role="navigation">
+        <ul>
+          <li><a href="">HOME</a></li>       
+          <li><a href="">STORY</a></li>
+          <li><a href="">CONTACT</a></li>
+		</ul>
+      </nav>
+    </header>
     
     <main>
       <br>
+      <!------------ Article ----------->
       <article>
         <h2>Life of a Starfish</h2>
         <br>
         <img src="images/lone-starfish.jpg" alt="lone-starfish" width="230" height="230" class="floatLeft">
-            <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, 
+        <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, 
             kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish 
             tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, 
             thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch 
@@ -44,55 +45,62 @@
             fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin 
             knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth 
             humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, 
-            dottyback.</p>
+            dottyback.
+        </p>
       </article>
-            <br>
+
+      <br>
+      <!------------ Section ----------->
       <section>
         <p class="smaller">
-          <h3>Facts About Starfish</h3>
-            <span>
-              <ul>
-                <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
-                <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-                <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
-                <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-              </ul>
-            </span>
-            </p>
+        <h3>Facts About Starfish</h3>
+        <span>
+          <ul>
+            <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+            <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+          </ul>
+        </span>
+        </p>
       </section>
       
           <br>
-        <!-- Form -->
-          <h3>Contact to learn more</h3>
-          <form action="thanks.html" method="post">
-            <br>
-            <label for="fullname">Your Name</label><br>
-            <input id="fullname" type="text" name="fullname"><br>
-            <br>
-            <label for="email">Your Email</label><br>
-            <input id="email" type="text" name="email"><br>
-            <br>
-            <label for="message">Your Message</label><br>
-            <textarea id="message"></textarea><br>
-            <br>
-            <!-- Radio Buttons -->
-            Would you like to visit the starfish?<br>
-            <br>
-            <label for="yes">Yes</label>
-            <input type="radio" id="yes" name="visit" value="Yes">
-            <label for="no">No</label>
-            <input type="radio" id="yes" name="visit" value="No">
-            <label for="maybe">Maybe</label>
-            <input type="radio" id="maybe" name="visit" value="Maybe"><br>
-            <br>
-            <button type="send">SEND</button>
-          </form>
+
+      <!------------ Form ----------->
+      <h3>Contact to learn more</h3>
+      <form action="thanks.html" method="post">
+          <br>
+        <label for="fullname">Your Name</label><br>
+        <input id="fullname" type="text" name="fullname"><br>
+          <br>
+        <label for="email">Your Email</label><br>
+        <input id="email" type="text" name="email"><br>
+          <br>
+        <label for="message">Your Message</label><br>
+        <textarea id="message"></textarea><br>
+          <br>
+        Would you like to visit the starfish?<br>
+          <br>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="visit" value="Yes">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="visit" value="No">
+        <label for="maybe">Maybe</label>
+        <input type="radio" id="maybe" name="visit" value="Maybe"><br>
+          <br>
+        <button type="send">SEND</button>
+      </form>
+
     </main>
 
+    <!------------ Footer ----------->
     <footer>
     &copy; Lone Starfish.
     </footer>
+
     <br>
-  </div>
+
+    </div>
   </body>
 </html>
