@@ -48,74 +48,79 @@ table {
 }
 
 
+
+
+
 body {
 	background-color: rgb(178, 211, 207);
 	font-family: Arial, Helvetica, sans-serif;
     color: black;
-	}
-
-/***********************************************************
-						NAV
-***********************************************************/
-
-nav li{
-	display: inline;
-	font-size:1.4rem;
-	text-align: center;
-	padding:0px 120px 0px 120px;
-	flex-grow: 1;
-	position: relative;
-	border-right: 1px black solid;
-  }
-
-  nav li:last-child{
-	border-right: none;
-  }
-
-a:link{
-	text-decoration: none;
 }
-a:visited{
-	color: black;
-}
-a:hover{
-	color: peru;
-}
-
-/***********************************************************
-						MAIN
-***********************************************************/
 
 /* style the element with the ID container */
 #container{
 	background-color: rgb(216, 232, 231);
     width:1024px;
-    margin:0 auto; /* 0 on the top and bottom, and "auto" and the left and right
+    margin:0 auto; 
+	/* 0 on the top and bottom, and "auto" and the left and right
     this will centre the element in the browser window */	
 }
 
-h1{
-	padding: 145px;
-    color: white;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:3.2rem;
-	background-image: url("../images/lone-starfish-wide.jpg");
-	
+/*---------- Header ----------*/
+.image{
+	position: relative;	
 }
 
+h1{
+	position: absolute;
+    left: 0;
+    top: 18%;
+    width: 100%;
+    text-align: center;
+    color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3.5rem;
+}
+
+nav li{
+	display: inline;
+	font-size: 1.4rem;
+	text-align: center;
+	padding: 0px 120px 0px 120px;
+	flex-grow: 1;
+	position: relative;
+	border-right: 1px black solid;
+}
+
+nav li:last-child{
+	border-right: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: peru;
+}
+
+/*---------- Main ----------*/
 article{
 	padding: 10px;
 }
 
 h2{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:2rem;
-
+	font-size: 2rem;
 }
 
 h3{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:1.5rem;
+	font-size: 1.5rem;
 	margin: 10px;
 }
 
@@ -131,6 +136,7 @@ img.floatLeft {
 	margin-bottom: 20px;
 }
 
+/*---------- Form ----------*/
 form {
 	margin: 10px;
 	border: 1px solid black;
@@ -167,10 +173,7 @@ ul{
 	list-style-type: disc;
 }
 
-  /***********************************************************
-						FOOTER
-***********************************************************/
-
+/*---------- Footer ----------*/
 footer{
 	color: black;
 	text-align: right;
