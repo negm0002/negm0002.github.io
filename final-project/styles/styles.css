@@ -62,9 +62,35 @@ table {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1200px;
-	
+}
 
-	
+h1{
+	font-size: 4em;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}	
+
+
+h2{
+	font-size: 3em;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+
+h3{
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+
+h4{
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
 
 
@@ -74,10 +100,6 @@ table {
 	align-items: center;
 	width: 100%;
 }
-
-
-
-
 
 
 
@@ -105,22 +127,59 @@ nav i{
 }
 
 .banner{
-	width: 90%;
-	height: 400px;
+	width: 100%;
+	height: 320px;
 	background-color:black;
-	opacity: 0.5;
+	opacity: 0.6;
+	position: absolute;
+	top: 300px;
+	  
 }
 
 .banner p{
 	color: white;
 }
 
+.about{
+	background-color: #ffe6ac;
+	padding: 10px;
+}
+
 .about img{
 	width: 100%;
 }
 
+.services{
+	background-color:white;
+}
+
+.services h2{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+
+
+.digital, .marketing, .video, .web, .print{
+	background-color: #ffe6ac;
+	margin-bottom: 15px;
+}
+
+
 .digital img, .marketing img, .video img, .web img, .print img{
 	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+
+.digital h3, p{
+	padding: 10px;
+}
+
+.digital a{
+	margin-left: 10px;
+	margin-bottom: 30px;
 }
 
 .vision img{
@@ -135,39 +194,20 @@ iframe{
 	width: 100%;
 }
 
-h1{
-	font-size: 3em;
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-}	
 
-
-h2{
-	font-size: 4em;
-	color: black;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-}
-
-
-h3{
-	font-size: 2em;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-}
-
-
-h4{
-	font-size: 1em;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-}
 
 .vision{
 	color: black;
 }
 
+.team{
+	background-color:white;
+}
+
+.john, .bob{
+	background-color: #ffe6ac;
+	margin-bottom: 15px;
+}
 
 input[type="text"]{	
 	width: 100%;
@@ -231,7 +271,6 @@ textarea{
 	.about{
 		display: grid;
 		grid-template-rows: 1fr;
-		background-color: #ffe6ac;
 	}
 	
 	
@@ -239,7 +278,6 @@ textarea{
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
 		grid-template-rows: 1fr 5fr 5fr;
-		background-color: #ffe6ac;
 		column-gap: 1em;
 		column-gap: 1em;
 	}
