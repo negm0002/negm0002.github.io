@@ -187,17 +187,25 @@ nav i{
 	margin-bottom: 30px;
 }
 
-.vision img{
+.vision-block img{
 	width: 100%;
+}
+
+.vision-block{
+	position: relative;
+}
+
+.vision-text{
+	position: absolute;
+	top: 150px;
+	color: white;
 }
 
 .john img, .bob img{
 	width: 100%;
 }
 
-iframe{
-	width: 100%;
-}
+
 
 
 
@@ -213,6 +221,7 @@ iframe{
 	background-color: #ffe6ac;
 	margin-bottom: 15px;
 }
+
 
 input[type="text"]{	
 	width: 100%;
@@ -231,6 +240,10 @@ textarea{
 	border: 1px solid #ccc;
 	font-size: 14px;
 	resize: none;
+}
+
+iframe{
+	width: 100%;
 }
 
 .hours{
