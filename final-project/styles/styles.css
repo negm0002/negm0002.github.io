@@ -141,7 +141,7 @@ nav i{
 	color: white;
 	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
-	top: 50px;	  
+	top: 20px;	  
 }
 
 
@@ -197,7 +197,7 @@ nav i{
 
 .vision-text{
 	position: absolute;
-	top: 150px;
+	top: 50px;
 	color: white;
 }
 
@@ -292,31 +292,49 @@ iframe{
 		grid-template-rows: 1fr;
 	}
 	
+	span h2{
+		margin-left: 50px;
+		background-color: white;
+		width: 100%;
+		height:fit-content;
+	}
 	
+
 	.services{
+		margin-left: 50px;
+		margin-right: 50px;
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
-		grid-template-rows: 1fr 5fr 5fr;
+		grid-auto-rows: 1fr 1fr;
 		column-gap: 1em;
 		column-gap: 1em;
-	}
-
-	.services h2{
-		display: grid;
-		grid-column: 1 / span 6;
-		background-color: white;
-		align-items: center;
 	}
 
 	.digital{
-		display: grid;
-		grid-column: 1 / span 2;
+		grid-column: 1 / span 3;
 	}
 
 	.marketing{
-		display: grid;
-		grid-column: 3 / span 4;
-	}	
+		grid-column: 4 / span 3;
+	}
+
+
+
+	.video{
+		grid-area: 2 / 1 / span 1 / span 2;
+	}
+
+	.web{
+		grid-area: 2 / 3 / span 1 / span 2;
+	}
+
+	.print{
+		grid-area: 2 / 5 / span 1 / span 2;
+	}
+
+	
+
+	
 
 
 	.team{
