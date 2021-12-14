@@ -50,21 +50,24 @@ table {
 
 
 
-
-/* ------------ Mobile Styling ----------- */
+/* ------------ Defaults ----------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
 
 html{
 	font-family: 'Open Sans', sans-serif;
 }
 
 
+/* ------------ Mobile Styling ----------- */
+
 .container{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1200px;
 }
+
 
 h1{
 	font-size: 4em;
@@ -104,7 +107,6 @@ h4{
 }
 
 
-
 nav ul li a{
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
@@ -116,24 +118,27 @@ nav ul li a{
 }
 
 
-
 .nav-block form{
 	display:flex;
 	width: 100%; 
 }
+
 
 nav i{
 	color: #C78C06;	
 	padding-left: 10px;
 }
 
+
 .banner-block{
 	position: relative;
 }
 
+
 .banner-back img{
 	width: 100%;
 }
+
 
 .banner-text{
 	width: 100%;
@@ -150,19 +155,21 @@ nav i{
 	padding: 10px;
 }
 
+
 .about img{
 	width: 100%;
 }
+
 
 .services{
 	background-color:white;
 }
 
+
 .services h2{
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
-
 
 
 .digital, .marketing, .video, .web, .print{
@@ -177,23 +184,26 @@ nav i{
 }
 
 
-
 .digital h3, p{
 	padding: 10px;
 }
+
 
 .digital a{
 	margin-left: 10px;
 	margin-bottom: 30px;
 }
 
+
 .vision-block img{
 	width: 100%;
 }
 
+
 .vision-block{
 	position: relative;
 }
+
 
 .vision-text{
 	position: absolute;
@@ -201,21 +211,21 @@ nav i{
 	color: white;
 }
 
+
 .john img, .bob img{
 	width: 100%;
 }
-
-
-
 
 
 .vision{
 	color: black;
 }
 
+
 .team{
 	background-color:white;
 }
+
 
 .john, .bob{
 	background-color: #ffe6ac;
@@ -231,6 +241,7 @@ input[type="text"]{
 	border: 1px solid #ccc;
 }
 
+
 textarea{
 	margin-top: 5px;
  	width: 100%;
@@ -242,22 +253,27 @@ textarea{
 	resize: none;
 }
 
+
 iframe{
 	width: 100%;
 }
+
 
 .hours{
 	display: grid;
 	grid-column: 1 / span 2;
 }
 
+
 .hours caption h3{
 	text-align: left;
 }
 
+
 .hours thead{
 	background-color: #ffe6ac;
 }
+
 
 .hours thead, th, tbody, td{
 	border: 1px solid black;
@@ -265,15 +281,18 @@ iframe{
 	padding: 10px;
 }
 
+
 .footer{
 	background-color: #222222;
 	padding: 20px;
 }
 
+
 .footer p{
 	color: #C78C06;	
 	margin-left: 80px;
 }
+
 
 .footer p a{
 	color: #C78C06;	
@@ -285,57 +304,75 @@ iframe{
 @media screen and (min-width: 760px){
     
 	
-
-
 	.about{
+		background-color: #ffe6ac;
 		display: grid;
-		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 	
+
+	.about h2{
+		margin-left: 0px;
+		background-color: #ffe6ac;
+	}
+
+
+	.about .image{
+		margin-left: 70px;
+		grid-column: 1;
+	}
+
+
+	.about p{
+		margin-right: 70px;
+	}
+
+	
+	/* ------------ Styling 'Our Services' ----------- */
+
 	span h2{
-		margin-left: 50px;
+		margin-left: 70px;
 		background-color: white;
 		width: 100%;
-		height:fit-content;
 	}
 	
 
 	.services{
-		margin-left: 50px;
-		margin-right: 50px;
+		margin-left: 70px;
+		margin-right: 70px;
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
 		grid-auto-rows: 1fr 1fr;
 		column-gap: 1em;
-		column-gap: 1em;
 	}
+
 
 	.digital{
 		grid-column: 1 / span 3;
 	}
+
 
 	.marketing{
 		grid-column: 4 / span 3;
 	}
 
 
-
 	.video{
 		grid-area: 2 / 1 / span 1 / span 2;
 	}
 
+
 	.web{
 		grid-area: 2 / 3 / span 1 / span 2;
 	}
+
 
 	.print{
 		grid-area: 2 / 5 / span 1 / span 2;
 	}
 
 	
-
-	
-
+	/* ------------ Styling 'Our Team' ----------- */
 
 	.team{
 		background-color: #ffe6ac;
@@ -343,13 +380,16 @@ iframe{
 		grid-template-rows: 1fr;
 	}
 
+
 	.team h2{
 		background-color: white;
 	}
 
+
 	.john img{
 		float: left;
 	}
+
 
 	.bob img{
 		float: right;
@@ -362,13 +402,11 @@ iframe{
 		grid-template-columns: 1fr 1fr;
 	}
 
+
 	.message{
 		display: grid;
 		grid-column-start: 1;
 	}
-
-	
-
 
 	
 }
