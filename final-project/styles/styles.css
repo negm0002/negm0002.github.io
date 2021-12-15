@@ -412,6 +412,8 @@ iframe{
 	}
 
 	
+
+
 	/* ------------ Desktop Styling 'Our Team' ----------- */
 
 	.team{
@@ -454,17 +456,22 @@ iframe{
 		margin-right: 10%;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		
 	}
 
 
 	.message{
 		display: grid;
-		grid-column-start: 1;
+		grid-column: 1 / span 1;
+	}
+
+
+	.location iframe{
+		height: 250px;
 	}
 
 	.hours{
-		
-		grid-column: 2 / span 2;
+		grid-column: 1 / span 3;
 	}
 
 	
