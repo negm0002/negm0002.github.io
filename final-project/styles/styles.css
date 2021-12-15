@@ -60,7 +60,7 @@ html{
 }
 
 
-/* ------------ Mobile Styling ----------- */
+/* ------------  M O B I L E  S T Y L I N G  ----------- */
 
 .container{
 	margin: 0 auto;
@@ -150,6 +150,8 @@ nav i{
 }
 
 
+/* ------------ Mobile Styling 'About Us' ----------- */
+
 .about{
 	background-color: #ffe6ac;
 	padding: 10px;
@@ -160,6 +162,8 @@ nav i{
 	width: 100%;
 }
 
+
+/* ------------ Mobile Styling 'Our Services' ----------- */
 
 .services{
 	background-color:white;
@@ -195,6 +199,8 @@ nav i{
 }
 
 
+/* ------------ Mobile Styling 'Our Vision' ----------- */
+
 .vision-block img{
 	width: 100%;
 }
@@ -212,26 +218,19 @@ nav i{
 }
 
 
+/* ------------ Mobile Styling 'Our Team' ----------- */
+
+.john, .bob{
+	background-color: #ffe6ac;
+}
+
+
 .john img, .bob img{
 	width: 100%;
 }
 
 
-.vision{
-	color: black;
-}
-
-
-.team{
-	background-color:white;
-}
-
-
-.john, .bob{
-	background-color: #ffe6ac;
-	margin-bottom: 15px;
-}
-
+/* ------------ Mobile Styling 'Contact Us' ----------- */
 
 input[type="text"]{	
 	width: 100%;
@@ -282,6 +281,8 @@ iframe{
 }
 
 
+/* ------------ Mobile Styling 'Footer' ----------- */
+
 .footer{
 	background-color: #222222;
 	padding: 20px;
@@ -299,11 +300,11 @@ iframe{
 }
 
 
-/* ------------ Desktop Styling ----------- */
+/* ------------  D E S K T O P  S T Y L I N G  ----------- */
 
 @media screen and (min-width: 760px){
-    
-	
+
+	/* ------------ Desktop Styling 'About Us' ----------- */
 	.about{
 		background-color: #ffe6ac;
 		display: grid;
@@ -328,18 +329,18 @@ iframe{
 	}
 
 	
-	/* ------------ Styling 'Our Services' ----------- */
+	/* ------------ Desktop Styling 'Our Services' ----------- */
 
 	span h2{
-		margin-left: 70px;
+		margin-left: 7%;
 		background-color: white;
 		width: 100%;
 	}
 	
 
 	.services{
-		margin-left: 70px;
-		margin-right: 70px;
+		margin-left: 7%;
+		margin-right: 7%;
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
 		grid-auto-rows: 1fr 1fr;
@@ -372,9 +373,15 @@ iframe{
 	}
 
 	
-	/* ------------ Styling 'Our Team' ----------- */
+	/* ------------ Desktop Styling 'Our Team' ----------- */
 
 	.team{
+		background-color:white;
+	}
+
+	.team{
+		margin-left: 7%;
+		margin-right: 7%;
 		background-color: #ffe6ac;
 		display: grid;
 		grid-template-rows: 1fr;
@@ -383,6 +390,11 @@ iframe{
 
 	.team h2{
 		background-color: white;
+	}
+
+
+	.john img, .bob img{
+		width: 50%;
 	}
 
 
@@ -395,6 +407,8 @@ iframe{
 		float: right;
 	}
 
+
+	/* ------------ Desktop Styling 'Contact Us' ----------- */
 
 	.contact{
 		display: grid;
