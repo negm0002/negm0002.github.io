@@ -50,7 +50,7 @@ table {
 
 
 
-/* ------------ Defaults ----------- */
+/* ------------  D E F A U L T S  ----------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
@@ -61,6 +61,8 @@ html{
 
 
 /* ------------  M O B I L E  S T Y L I N G  ----------- */
+
+/* ------------ Mobile Styling 'Header' ----------- */
 
 .container{
 	margin: 0 auto;
@@ -258,10 +260,6 @@ iframe{
 }
 
 
-.hours{
-	display: grid;
-	grid-column: 1 / span 2;
-}
 
 
 .hours caption h3{
@@ -279,6 +277,8 @@ iframe{
 	border-collapse: collapse;
 	padding: 10px;
 }
+
+
 
 
 /* ------------ Mobile Styling 'Footer' ----------- */
@@ -303,6 +303,7 @@ iframe{
 /* ------------  D E S K T O P  S T Y L I N G  ----------- */
 
 @media screen and (min-width: 760px){
+
 
 	/* ------------ Desktop Styling 'About Us' ----------- */
 	.about{
@@ -411,6 +412,8 @@ iframe{
 	/* ------------ Desktop Styling 'Contact Us' ----------- */
 
 	.contact{
+		margin-left: 7%;
+		margin-right: 7%;
 		display: grid;
 		grid-template-rows: 1fr;
 		grid-template-columns: 1fr 1fr;
@@ -420,6 +423,12 @@ iframe{
 	.message{
 		display: grid;
 		grid-column-start: 1;
+	}
+
+	.hours{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column: 1 / span 2;
 	}
 
 	
