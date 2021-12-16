@@ -60,10 +60,6 @@ html{
 }
 
 
-/* ------------  M O B I L E  S T Y L I N G  ----------- */
-
-/* ------------ Mobile Styling 'Header' ----------- */
-
 .container{
 	margin: 0 auto;
 	width: 100%;
@@ -80,6 +76,9 @@ h1{
 
 
 h2{
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 3em;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
@@ -88,6 +87,9 @@ h2{
 
 
 h3{
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 2em;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -100,6 +102,10 @@ h4{
 	font-weight: 600;
 }
 
+
+/* ------------  M O B I L E  S T Y L I N G  ----------- */
+
+/* ------------ Mobile Styling 'Header' ----------- */
 
 .nav-block{
 	background-color: #222222;
@@ -191,7 +197,6 @@ nav i{
 
 
 span h2{
-	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
@@ -208,27 +213,27 @@ span h2{
 }
 
 
-.digital h3, p, a{
+.digital p, a{
 	padding: 10px;
 }
 
 
-.marketing h3, p, a{
+.marketing p, a{
 	padding: 10px;
 }
 
 
-.video h3,p, a{
+.video p, a{
 	padding: 10px;
 }
 
 
-.web h3, p, a{
+.web p, a{
 	padding: 10px;
 }
 
 
-.print h3, p, a{
+.print p, a{
 	padding: 10px;
 }
 
@@ -255,11 +260,6 @@ span h2{
 
 .vision-block{
 	position: relative;
-}
-
-
-.vision-block h3{
-	margin-left: 10px;
 }
 
 
@@ -295,12 +295,12 @@ span h2{
 }
 
 
-.john h3, h4, p{
+.john h4, p{
 	padding: 10px;
 }
 
 
-.bob h3, h4, p{
+.bob h4, p{
 	padding: 10px;
 }
 
@@ -331,9 +331,14 @@ span h2{
 
 
 .location h3{
-	margin-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+
+.formbox{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 
@@ -360,8 +365,7 @@ textarea{
 
 #submit{
 	background-color: black;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 10px 0px 10px 10px;
 	color: #C78C06;
 	padding: 5px 5px;
 	text-align: center;
@@ -378,6 +382,7 @@ iframe{
 
 
 .hours table{
+	margin-left: 10px;
 	width: 100%;
 }
 
@@ -421,6 +426,21 @@ iframe{
 /* ------------  D E S K T O P  S T Y L I N G  ----------- */
 
 @media screen and (min-width: 760px){
+
+	h1{
+		font-size: 2.5em;
+	}
+
+
+	h2{
+		font-size: 2em;
+		font-weight: 600;
+	}
+
+	
+	h3{
+		font-size: 1.5em;
+	}
 
 	/* ------------ Desktop Styling 'Header' ----------- */
 
@@ -466,13 +486,17 @@ iframe{
 	
 
 	.about h2{
-		margin-left: 0px;
 		background-color: #ffe6ac;
 	}
 
 
 	.about .image{
 		grid-column: 1;
+	}
+
+
+	.image img{
+		height: auto;
 	}
 
 	
@@ -535,7 +559,6 @@ iframe{
 	.team{
 		margin-left: 10%;
 		margin-right: 10%;
-		background-color: #ffe6ac;
 		display: grid;
 		grid-template-rows: 1fr;
 	}
