@@ -161,7 +161,7 @@ nav i{
 .connect-button{
 		background-color: #C78C06;
 		border: none;
-		color: white;
+		color: black;
 		padding: 15px 32px;
 		text-align: center;
 		text-decoration: none;
@@ -234,6 +234,7 @@ span h2{
 
 
 .digital-button, .marketing-button, .video-button, .web-button, .print-button{
+	margin-bottom: 10px;
 	background-color: black;
 	border: none;
 	color: white;
@@ -357,6 +358,8 @@ textarea{
 
 #submit{
 	background-color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: #C78C06;
 	padding: 5px 5px;
 	text-align: center;
@@ -517,6 +520,7 @@ iframe{
 	.digital-button, .marketing-button{
 		width: 95%;
 	}
+
 
 	.video-button, .web-button, .print-button{
 		width: 91%;
