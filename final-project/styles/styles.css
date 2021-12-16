@@ -80,7 +80,7 @@ h2{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 3em;
-	color: black;
+	color: #222;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 }
@@ -167,7 +167,7 @@ nav i{
 .connect-button{
 		background-color: #C78C06;
 		border: none;
-		color: black;
+		color: #222222;
 		padding: 15px 32px;
 		text-align: center;
 		text-decoration: none;
@@ -240,7 +240,7 @@ span h2{
 
 .digital-button, .marketing-button, .video-button, .web-button, .print-button{
 	margin-bottom: 10px;
-	background-color: black;
+	background-color: #222222;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -266,8 +266,13 @@ span h2{
 .vision-text{
 	padding: 10px;
 	position: absolute;
-	top: 50px;
+	top: 2px;
 	color: white;
+}
+
+
+.vision-text p{
+	font-size: 14px;
 }
 
 
@@ -295,12 +300,22 @@ span h2{
 }
 
 
-.john h4, p{
+.john h4{
+	border-bottom: 2px solid #C78C06;
+}
+
+
+.bob h4{
+	border-bottom: 2px solid #C78C06;
+}
+
+
+.john h4, .john p{
 	padding: 10px;
 }
 
 
-.bob h4, p{
+.bob h4, .bob p{
 	padding: 10px;
 }
 
@@ -364,7 +379,7 @@ textarea{
 
 
 #submit{
-	background-color: black;
+	background-color: #222222;
 	margin: 10px 0px 10px 10px;
 	color: #C78C06;
 	padding: 5px 5px;
@@ -398,7 +413,7 @@ iframe{
 
 
 .hours thead, th, tbody, td{
-	border: 1px solid black;
+	border: 1px solid #222222;
 	border-collapse: collapse;
 	padding: 10px;
 }
@@ -462,7 +477,7 @@ iframe{
 
 	.nav-block form{
 		width: 15%;
-		margin-left: 70px;
+		margin-left: 20px;
 	}
 
 
@@ -487,6 +502,7 @@ iframe{
 
 	.about h2{
 		background-color: #ffe6ac;
+		margin-left: 10px;
 	}
 
 
@@ -553,6 +569,21 @@ iframe{
 		width: 91%;
 	}
 	
+
+	/* ------------ Desktop Styling 'Our Vision' ----------- */
+
+	.vision-text{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+
+	.vision-block img{
+	width: 100%;
+    height: 20vh;
+    object-fit: cover;
+	}
+
 
 	/* ------------ Desktop Styling 'Our Team' ----------- */
 
