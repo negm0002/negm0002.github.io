@@ -282,6 +282,7 @@ span h2{
 	font-size: 16px;
 }
 
+
 /* ------------ Mobile Styling 'Our Team' ----------- */
 
 .team h2{
@@ -330,6 +331,7 @@ span h2{
 
 
 .location h3{
+	margin-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -370,7 +372,8 @@ textarea{
 
 
 iframe{
-	width: 100%;
+	margin-left: 10px;
+	width: 97%;
 }
 
 
@@ -425,7 +428,7 @@ iframe{
 		width: 100%;
 		display: flex;
 	}
-
+	
 
 	.nav-block img{
 		padding: 30px 0px 30px 10%;
@@ -456,7 +459,7 @@ iframe{
 		position: absolute;
 		padding-left: 10%;
 		padding-right: 10%;
-		bottom: 70px;
+		bottom: 0px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
