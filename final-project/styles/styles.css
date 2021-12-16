@@ -158,6 +158,18 @@ nav i{
 }
 
 
+.connect-button{
+		background-color: #C78C06;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+}
+
+
 /* ------------ Mobile Styling 'About Us' ----------- */
 
 .about{
@@ -221,6 +233,18 @@ span h2{
 }
 
 
+.digital-button, .marketing-button, .video-button, .web-button, .print-button{
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+
 /* ------------ Mobile Styling 'Our Vision' ----------- */
 
 .vision-block img{
@@ -245,6 +269,17 @@ span h2{
 	color: white;
 }
 
+
+.learn-button{
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid #C78C06;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
 
 /* ------------ Mobile Styling 'Our Team' ----------- */
 
@@ -317,6 +352,17 @@ textarea{
 	border: 1px solid #ccc;
 	font-size: 14px;
 	resize: none;
+}
+
+
+#submit{
+	background-color: black;
+	color: #C78C06;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
 
@@ -465,6 +511,15 @@ iframe{
 
 	.print{
 		grid-area: 2 / 5 / span 1 / span 2;
+	}
+
+
+	.digital-button, .marketing-button{
+		width: 95%;
+	}
+
+	.video-button, .web-button, .print-button{
+		width: 91%;
 	}
 	
 
